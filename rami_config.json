@@ -1,0 +1,44 @@
+{
+    "Ouster_config":{
+        "enable_sensor": "true",
+        "hostname": "os-122107000192.local",
+        "lidar_port": 7502,
+        "imu_port": 7503,
+        "lidar_mode": "2048x10",
+        "udp_dest": ""
+    },
+    "RealSense_config":{
+
+        "enable_emmiter": false,
+
+        "color_width": 1920,
+        "color_height": 1080,
+        "nir_width": 1280,
+        "nir_height": 720,
+        "frame_rate": 30
+
+    },
+    "FrameGrabber_config":{
+
+        "count": 2,
+
+        "width": 690,
+        "height": 490,
+
+        "capture_width": 720,
+        "capture_height": 576,
+
+        "frame_rate": 30
+
+    },
+    "Zed_opencv_config":{
+        "cap_no": 0,
+        "width": 1280,
+        "height": 720
+    },
+
+    
+    "output_path": "output_files/",
+    "SamplePeriod": 0.1
+
+}
